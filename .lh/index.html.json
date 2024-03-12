@@ -1,0 +1,50 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1709739823752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709740338775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   </div>\r\n   <div class=\"upper-btn-box\">\r\n     <div class=\"left-box\">\r\n       <button><i class=\"fa fa-plus\"></i>Add Employee</button>\r\n-      <button><i class=\"fa fa-eraser\"></i>Clear Filtering</button>\r\n+      <button style=\"background-color: #33B5E6;\"><i class=\"fa fa-eraser\"></i>Clear Filtering</button>\r\n     </div>\r\n     <div class=\"right-box\"></div>\r\n   </div>\r\n   <script type=\"module\" src=\"script.js\"></script>\r\n"
+                },
+                {
+                    "date": 1709740500347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,13 @@\n     <div class=\"left-box\">\r\n       <button><i class=\"fa fa-plus\"></i>Add Employee</button>\r\n       <button style=\"background-color: #33B5E6;\"><i class=\"fa fa-eraser\"></i>Clear Filtering</button>\r\n     </div>\r\n-    <div class=\"right-box\"></div>\r\n+    <div class=\"right-box\">\r\n+      <i class=\"fa fa-search\"></i>\r\n+      <input type=\"text\" id=\"empId\">\r\n+      <button>Search</button>\r\n+    </div>\r\n   </div>\r\n   <script type=\"module\" src=\"script.js\"></script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1709740895224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     </div>\r\n     <div class=\"right-box\">\r\n       <i class=\"fa fa-search\"></i>\r\n       <input type=\"text\" id=\"empId\">\r\n-      <button>Search</button>\r\n+      <button style=\" background-color: #ee534f\">Search</button>\r\n     </div>\r\n   </div>\r\n   <script type=\"module\" src=\"script.js\"></script>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1709741021452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n       <button style=\"background-color: #33B5E6;\"><i class=\"fa fa-eraser\"></i>Clear Filtering</button>\r\n     </div>\r\n     <div class=\"right-box\">\r\n       <i class=\"fa fa-search\"></i>\r\n-      <input type=\"text\" id=\"empId\">\r\n+      <input type=\"text\" id=\"empId\" placeholder=\"Enter Employee Id\">\r\n       <button style=\" background-color: #ee534f\">Search</button>\r\n     </div>\r\n   </div>\r\n   <script type=\"module\" src=\"script.js\"></script>\r\n"
+                },
+                {
+                    "date": 1709741329524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,23 @@\n       <input type=\"text\" id=\"empId\" placeholder=\"Enter Employee Id\">\r\n       <button style=\" background-color: #ee534f\">Search</button>\r\n     </div>\r\n   </div>\r\n-  <script type=\"module\" src=\"script.js\"></script>\r\n+  <div class=\"table-box\">\r\n+    <table>\r\n+      <tr>\r\n+        <th>Sr No</th>\r\n+        <th>Profile</th>\r\n+        <th>Id</th>\r\n+        <th>Name</th>\r\n+        <th>Last Name</th>\r\n+        <th>E-mail</th>\r\n+        <th>Office Code</th>\r\n+        <th>Job Title</th>\r\n+        <th>Actions</th>\r\n+      </tr>\r\n+    </table>\r\n+  </div>\r\n+  <script src=\"script.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709742062386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,31 @@\n         <th>Office Code</th>\r\n         <th>Job Title</th>\r\n         <th>Actions</th>\r\n       </tr>\r\n+      <tr>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>Hello World</td>\r\n+        <td>\r\n+          <button><i class=\"fa fa-eye\"</button>\r\n+            <button><i class=\"fa fa-trash\"</button>\r\n+        </td>\r\n+      </tr>\r\n     </table>\r\n   </div>\r\n   <script src=\"script.js\"></script>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1709742589022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n         <td>Hello World</td>\r\n         <td>Hello World</td>\r\n         <td>\r\n           <button><i class=\"fa fa-eye\" </button>\r\n-              <button><i class=\"fa fa-trash\" </button>\r\n+              <button style=\"  background-color: #ee534f\"><i class=\"fa fa-trash\" </button>\r\n         </td>\r\n       </tr>\r\n     </table>\r\n   </div>\r\n"
+                },
+                {
+                    "date": 1709742661023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,20 +47,11 @@\n         <td>Hello World</td>\r\n         <td>Hello World</td>\r\n         <td>Hello World</td>\r\n         <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n-        <td>Hello World</td>\r\n         <td>\r\n           <button><i class=\"fa fa-eye\" </button>\r\n-              <button style=\"  background-color: #ee534f\"><i class=\"fa fa-trash\" </button>\r\n+              <button style=\"background-color: #ee534f\"><i class=\"fa fa-trash\" </button>\r\n         </td>\r\n       </tr>\r\n     </table>\r\n   </div>\r\n"
+                }
+            ],
+            "date": 1709739823752,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Employee Registration</title>\r\n  <link rel=\"stylesheet\" href=\"style.css\">\r\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\"\r\n    integrity=\"sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==\"\r\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n</head>\r\n\r\n<body>\r\n  <div class=\"header\">\r\n    <h5>Employee</h5>\r\n  </div>\r\n  <div class=\"upper-btn-box\">\r\n    <div class=\"left-box\">\r\n      <button><i class=\"fa fa-plus\"></i>Add Employee</button>\r\n      <button><i class=\"fa fa-eraser\"></i>Clear Filtering</button>\r\n    </div>\r\n    <div class=\"right-box\"></div>\r\n  </div>\r\n  <script type=\"module\" src=\"script.js\"></script>\r\n</body>\r\n\r\n</html>"
+        }
+    ]
+}
